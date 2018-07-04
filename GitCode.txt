@@ -1,6 +1,0 @@
-本地创建仓库
-git init
-git add name.type
-git commit -m "comment"
-git 
-git qinyuan
