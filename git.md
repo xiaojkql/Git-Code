@@ -41,12 +41,7 @@
      enter the following content in `.gitconfig`
      
      `[color] ` 
-     
-        `ui = true`
-        
-      `[core]`
-      
-        `pager = less -r`
+  
   
  
  
