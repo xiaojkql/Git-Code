@@ -109,6 +109,9 @@ git commit
 git rebase
 git push
 ```
+## 错误
+- 1. 信息： fatal: refusing to merge unrelated histories
+- 解决办法 git pull origin master --allow-unrelated-histories
   
  
  
