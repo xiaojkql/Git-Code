@@ -112,8 +112,11 @@ git rebase
 git push
 ```
 ## 错误
-- 1. 信息： fatal: refusing to merge unrelated histories
+- 1信息： fatal: refusing to merge unrelated histories
 - 解决办法 git pull origin master --allow-unrelated-histories
+
+- 2信息fatal: remote origin already exists.
+-  解决办法 git remote rm origin///// 或者vi .git/config(手动修改配置)
   
  
  
