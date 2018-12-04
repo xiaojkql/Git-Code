@@ -106,7 +106,7 @@ int main()
 
 第一种：Ctrl+T
 
-![插入表格](C:\Users\xiaojkql\Desktop\Handy-Command-Code\Markdown\Pic\插入表格.png)
+![插入表格](https://github.com/xiaojkql/Handy-Command-Code/blob/master/Markdown/Pic/%E6%8F%92%E5%85%A5%E8%A1%A8%E6%A0%BC.png)
 
 |  1   |  2   |  3   |
 | :--: | :--: | :--: |

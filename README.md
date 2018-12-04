@@ -1,7 +1,11 @@
 # Handy command when programming
 
--[Git](https://github.com/xiaojkql/Handy-Command-Code/blob/master/git.md)
+## Guide
 
--Markdown Software [Typora](https://www.typora.io/)
+- [**Git**](https://github.com/xiaojkql/Handy-Command-Code/blob/master/git.md)
 
--Typora Guide
+- [**Typora** **Guide**](https://github.com/xiaojkql/Handy-Command-Code/blob/master/Markdown/Typora%20Guide.md)
+
+## SoftWare
+
+- **Markdown**:  [Typora](https://www.typora.io/)
