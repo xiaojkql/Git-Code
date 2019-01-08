@@ -128,7 +128,7 @@ git push
 
 当使用Source Tree 时需要使用另一个版本控制系统BitBucket
 
-
+使用方法：先暂存，然后提交到本地仓库(git commit -m)，推送（push）
 
 
 
