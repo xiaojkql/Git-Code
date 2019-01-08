@@ -24,5 +24,13 @@
 
 ## Notebook
 
+1 执行代码用shift + enter (create new line)  ctrl +enter (stay command)
 
+2 更换为MD用 m
+
+3 中断执行用i i 重新开始用0 0
+
+4 Esc返回到命令行的模式
+
+6 [Top 5 extension](https://ndres.me/post/best-jupyter-notebook-extensions/)
 
