@@ -22,3 +22,8 @@ mkdir .kaggle (in /windows/user/yourname)
 以后下载文件都在.kaggle文件中用cmd命令行，下载的问价也在该文件夹中
 ```
 
+3.jupyter的使用
+
+[website](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html)  此网站包含了大量的插件
+
+[自动补全代码设置]()
