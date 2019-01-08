@@ -27,3 +27,14 @@ mkdir .kaggle (in /windows/user/yourname)
 [website](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html)  此网站包含了大量的插件
 
 [自动补全代码设置]()
+
+```
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+
+pip install jupyter_nbextensions_configurator
+jupyter nbextensions_configurator enable --user
+
+重启jupyter，在弹出的主页面里，能看到增加了一个Nbextensions标签页，在这个页面里，勾选Hinterland即启用了代码自动补全
+```
+
