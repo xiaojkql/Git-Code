@@ -130,5 +130,9 @@ git push
 
 使用方法：先暂存，然后提交到本地仓库(git commit -m)，推送（push）
 
+[教程]()
+
+### 7在pycharm中使用git
+
 
 
