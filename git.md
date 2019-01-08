@@ -1,4 +1,7 @@
 # CheatSheet for Git
+
+[official website](https://git-scm.com/)
+
 ### 1. 创建版本库
 ```
 git init
@@ -45,7 +48,7 @@ git remote add origin git@github.com:xiaojkql/<repo.name>.git
 git push -u origin master
 git push origin master
 ```
-  
+
 ### 4. 分支管理
 - 创建分支
 ```
@@ -117,6 +120,6 @@ git push
 
 - 2信息fatal: remote origin already exists.
 -  解决办法 git remote rm origin///// 或者vi .git/config(手动修改配置)
-  
+
  
- 
+
