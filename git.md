@@ -134,5 +134,7 @@ git push
 
 ### 7在pycharm中使用git
 
+[教程](https://blog.csdn.net/xz1308579340/article/details/80397786)
+
 
 
