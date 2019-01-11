@@ -22,7 +22,7 @@ mkdir .kaggle (in /windows/user/yourname)
 以后下载文件都在.kaggle文件中用cmd命令行，下载的问价也在该文件夹中
 ```
 
-3.jupyter的使用
+### 3.jupyter的使用
 
 [website](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/nbextensions.html)  此网站包含了大量的插件
 
@@ -36,5 +36,7 @@ pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
 重启jupyter，在弹出的主页面里，能看到增加了一个Nbextensions标签页，在这个页面里，勾选Hinterland即启用了代码自动补全
+
 ```
 
+Anconda promd 更换磁盘 直接输入该磁盘的名字即可
