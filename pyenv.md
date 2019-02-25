@@ -18,6 +18,8 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshenv
 #### step4
 增加pyenv init
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshenv
+更新
+source ~/.zshenvpy
 
 保证此条命令时添加到/.zshenv 的末尾，因为它不是一条path,/.zshenv首先会寻找path,如果再中途遇到非path会出错
 查看命令
@@ -41,6 +43,12 @@ pyenv rehash  # 当你安装一个新的python版本时要重新哈希一下
 更新：
 cd ~/.pyenv 或者 cd $(pyenv root)
 git pull
+
+
+cd ~/.pyenv
+sudo mkdir cache
+wget -c http://mirrors.sohu.com/python/3.7.1/Python-3.7.1.tar.xz -P  ~/.pyenv/cache/
+pyenv install 3.6.4 -v
 
 #### step6
 背景：pyenv通过使用virtualenv 创建虚拟环境，实现了真正的环境隔离，每一个项目都使用一个单独的环境即虚拟环境
