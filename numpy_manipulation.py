@@ -28,7 +28,6 @@ z[1] = 100
 print(a)
 print(z)
 
-
 # 2 transpose
 """ 1 np.transpose(array,[axes: eg. 1,0,2,3])--> view  改变轴的大小"""
 z = np.arange(0, 10).reshape(2, 5)

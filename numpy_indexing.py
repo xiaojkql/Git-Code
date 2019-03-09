@@ -25,7 +25,7 @@ print(z4)
 """ 3 np.s_[start:stop:step] --> slice(start,stop,step) """
 # 创建slice
 z1 = np.arange(0, 12).reshape(6, 2)
-print(z1[:,np.s_[::2]])
+print(z1[:, np.s_[::2]])
 
 
 """ 4 np.index_exp[::]-->上面一样 """
@@ -34,11 +34,14 @@ print(z1[:,np.s_[::2]])
 """ 5 np.nonzero(array) --> (arr1,arr2,arr3)"""
 # 返回非零的索引，len(arr1)==非零的个数，每个arr1对应非零元素的每一维的索引
 # 可以用np.transpose(return_value) --> 2-D arr element --> index of nonzero
-z = np.array([[0,2,0],[4,5,6],[0,0,2]])
+z = np.array([[0, 2, 0], [4, 5, 6], [0, 0, 2]])
 z1 = np.nonzero(z)
 print(z1)
 print(np.transpose(z1))
 # 用在筛选功能
-a = np.nonzero(z>3)
+a = np.nonzero(z > 3)
 print(z[a])
-print(z[z>3]) #比此要好
+print(z[z > 3])  # 比此要好
+
+
+np.arange()
