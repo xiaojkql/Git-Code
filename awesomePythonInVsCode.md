@@ -13,6 +13,19 @@ ctrl + shift + --> or <-- 表示快速选择
 shift + --> or <-- 表示慢速选择
 
 
+ctrl + d 删除此行
+ctrl + I 选中此行
+
+ctrl + e 切换到文件浏览器
+ctrl + shift + d
+
+ctrl + shift + j problems
+ctrl + shift + k output
+ctrl + shift + l debug
+ctrl + ' terminal
+
+
+
 ## Lingting:
 检查代码的错误部分
 主要用的检查工具有： Pylint, Pep8, Flake8, mypy, pydocstyle, prospector, and pylama(需要用pip进行安装)

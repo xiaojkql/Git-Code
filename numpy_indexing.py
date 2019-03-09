@@ -1,4 +1,4 @@
-import numpy as np
+kimport numpy as np
 
 # 1 Generating index arrays
 
