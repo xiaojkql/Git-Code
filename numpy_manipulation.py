@@ -1,7 +1,7 @@
 # 1 change array shape
 
 import numpy as np
-""" 1 np.reshape(a,newshape,order) == ndarray.reshape(newshape) --> 返回一个新的array """
+""" 1 np.reshape(a,newshape,order) == ndarray.reshape(newshape) --> copy """
 z = np.arange(0, 10)
 a = z.reshape(5, 2)  # 返回的是view
 a[1, 1] = 100
@@ -67,7 +67,7 @@ z3 = np.column_stack((z, z1))
 print(z3)
 
 """ 4 np.hstack(tup)-->copy second_axis"""
-# 输入一系列一维向量时，按照一维进行合拼 [n,1]
+# 输入一系列一维向量时，按照一维进行合拼 [1,n]
 # 输入一系列二维矩阵时，按照第二维进行合并
 # 可以将多个 --> contenate的特殊形式
 z = np.arange(6)
@@ -89,7 +89,7 @@ print(z2)
 
 
 # 4 splitting arrays
-""" 1 np.split(array,indices_or_sections) --> copy @return list(arrays) """
+""" 1 np.split(array,indices_or_sections，axis) --> copy @return list(arrays) """
 # indices_or_sections 为int时 会按照axis分成N分如果不可以将报错
 # indices_or_sections 为1-Darray时 将会按照给定的位置进行划分，没有时返回空
 # axis --> 指定轴
