@@ -1,0 +1,21 @@
+查看是什么sh
+- ls -ial /bin/sh
+- ls -al /bin/sh
+
+更换sh
+- chsh -s /bin/(target shell)
+
+查看可使用的shell
+- cat /etc/shells
+
+ubuntu默认的shell为dash,若要改为bash运行命令
+- sudo dpkg-reconfigure dash --》 选择否， 换回的话选择是
+
+查看当前默认的shell
+- echo $SHELL
+
+
+zsh
+语法高亮 https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+autojump https://github.com/wting/autojump
+zsh-autosuggestions  https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md

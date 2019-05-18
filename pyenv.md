@@ -19,7 +19,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshenv
 增加pyenv init
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshenv
 更新
-source ~/.zshenvpy
+source ~/.zshenv
 
 保证此条命令时添加到/.zshenv 的末尾，因为它不是一条path,/.zshenv首先会寻找path,如果再中途遇到非path会出错
 查看命令
@@ -78,3 +78,22 @@ pyenv deactivate # 不激活虚拟环境
 pyenv uninstall my-virtual-env # 删除当前的虚拟环境
 pyenv virtualenv-delete my-virtual-env # 删除当前的虚拟环境
 
+
+本身的下载地址下载很缓慢
+
+v=3.7.3;wget http://npm.taobao.org/mirrors/python/$v/Python-$v.tar.xz -P ~/.pyenv/cache/;pyenv install $v 
+
+
+
+根目录创建.pip文件：mkdir ~/.pip
+创建文件pip.conf：vim .pip/pip.conf
+点击“i”键，进入编辑模式，复制信息：
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
+这个更换的是清华的源，清华的源5分钟同步官网一次，建议使用。
+清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/
+阿里云 http://mirrors.aliyun.com/pypi/simple/
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple/
+豆瓣(douban) http://pypi.douban.com/simple/
+中国科学技术大学 http://pypi.mirrors.ustc.edu.cn/simple/

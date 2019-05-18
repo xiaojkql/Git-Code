@@ -39,4 +39,4 @@ jupyter nbextensions_configurator enable --user
 
 ```
 
-Anconda promd 更换磁盘 直接输入该磁盘的名字即可
+Anconda promd 更换磁盘 直接输入该磁盘的名字即可g

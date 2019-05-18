@@ -10,3 +10,8 @@ vim /etc/hosts
 sudo /etc/init.d/networking restart
 ```
 
+使用TI等
+https://gitee.com/wszqkzqk/deepin-wine-for-ubuntu
+
+ubuntu更新源在
+/etc/apt/source.list中
